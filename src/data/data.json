@@ -1,0 +1,22 @@
+{
+  "drinks": [
+    {
+      "zhName": "伯爵紅茶拿鐵",
+      "egName": "Earl Grey Black Tea Latte",
+      "price": 60,
+      "image": "https://tb-static.uber.com/prod/image-proc/processed_images/50b1678fc6f8a1cf2b5e45920f955abf/5954bcb006b10dbfd0bc160f6370faf3.jpeg"
+    },
+    {
+      "zhName": "珍珠手炒黑糖鮮奶",
+      "egName": "Brown Sugar Fresh Milk with Bubble",
+      "price": 80,
+      "image": "https://tb-static.uber.com/prod/image-proc/processed_images/4a356f1ff17a9912d0cabbc41fdff86f/5954bcb006b10dbfd0bc160f6370faf3.jpeg"
+    },
+    {
+      "zhName": "冰萃柳丁",
+      "egName": "Iced Orange Tea",
+      "price": 60,
+      "image": "https://tb-static.uber.com/prod/image-proc/processed_images/8f533dfbd8e4e13100ef4b3309a38749/5954bcb006b10dbfd0bc160f6370faf3.jpeg"
+    }
+  ]
+}
