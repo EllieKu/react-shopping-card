@@ -3,8 +3,10 @@ import { Link } from 'react-router-dom'
 import './Navbar.css'
 import logo from '../images/logo.jpeg'
 import { BsFillCartFill } from 'react-icons/bs'
+import { useShoppingCart } from '../context/ShoppingCartContext'
 
 function Navbar() {
+  const {cartQuantity} = useShoppingCart()
   return (
     <div className='navbar'>
       <div className='logo'>
@@ -24,7 +26,7 @@ function Navbar() {
       </nav>
       <div className='cart'>
         <BsFillCartFill />
-        <span>2</span>
+        <span>{cartQuantity}</span>
       </div>
     </div>
   )
