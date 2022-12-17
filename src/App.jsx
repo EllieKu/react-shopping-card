@@ -6,19 +6,26 @@ import About from './pages/About'
 import Navbar from './components/Navbar'
 import { ShoppingCartProvider } from './context/ShoppingCartContext'
 import { Routes, Route } from 'react-router-dom'
+import styled from 'styled-components'
+
+const Section = styled.section`
+  width: 100%;
+  /* height: calc(100vh - 84px); */
+  padding: 10px 20px;
+`
 
 function App() {
   return (
     <div className="app">
       <ShoppingCartProvider>
         <Navbar />
-        <section>
+        <Section>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/product" element={<Product />} />
           </Routes>
-        </section>
+        </Section>
       </ShoppingCartProvider>
     </div>
   )
