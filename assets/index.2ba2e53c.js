@@ -61,7 +61,7 @@ Error generating stack: `+o.message+`
   width: 100%;
   margin-bottom: 10px;
 `,k0=ee.img`
-  width: 40%;
+  width: max(100px, 40%);
 `,x0=ee.div`
   display: flex;
   flex-grow: 1;
@@ -89,6 +89,7 @@ Error generating stack: `+o.message+`
   float: right;
   transition: .3s;
   transform: ${e=>e.toggle?"translateX(0)":"translateX(100%)"};
+  overflow-y: scroll;
 `,_0=ee.div`
   display: flex;
   align-items: center;
@@ -107,8 +108,7 @@ Error generating stack: `+o.message+`
   display: flex;
   flex-direction: column;
   padding: 10px;
-  width: 200px;
-  height: 330px;
+  width: clamp(300px, 30%, 400px);
   margin: 10px;
 
   &:hover {
