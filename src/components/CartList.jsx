@@ -51,12 +51,13 @@ const Card = ({detail}) => {
 
 const List = styled.div`
   position: absolute;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   left: 0;
   top: 0;
   background-color: rgb(0, 0, 0, 0.3);
   transform: ${props => (props.toggle ? "translateX(0)" : "translateX(100%)")};
+  display: ${props => (props.toggle ? "unset" : "none")};
   transition: ${props => (props.toggle ? " .3s" : ".01s")};
   transition-delay: .3s;
 `

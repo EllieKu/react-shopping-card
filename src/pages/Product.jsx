@@ -115,7 +115,6 @@ const List = styled.div`
 export default function Product() {
   return (
     <>
-      <h1>All Products</h1>
       <List>
         {
           data.drinks.map((item, index) => <Card detail={item} key={index}/>)

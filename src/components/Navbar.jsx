@@ -11,6 +11,7 @@ const Nav = styled.nav`
   align-items: center;
   width: 100%;
   height: 84px;
+  margin-bottom: 4px;
   padding: 10px 20px;
   background-color: #fff;
   box-shadow: 0 0 8px rgb(0 0 0 / 50%);
@@ -43,7 +44,7 @@ const IconCart = styled.div`
   cursor: pointer;
   transition: all;
   transition-duration: 0.5s;
-  color: var(--promary-color);
+  color: var(--primary-color);
   font-size: 26px;
 `
 

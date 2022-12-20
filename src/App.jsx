@@ -9,9 +9,10 @@ import { Routes, Route } from 'react-router-dom'
 import styled from 'styled-components'
 
 const Section = styled.section`
-  width: 100%;
-  /* height: calc(100vh - 84px); */
+  width: 100vw;
+  height: calc(100vh - 88px);
   padding: 10px 20px;
+  overflow-y: scroll;
 `
 
 function App() {
