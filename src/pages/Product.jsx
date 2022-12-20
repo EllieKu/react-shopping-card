@@ -7,8 +7,7 @@ const Item = styled.article`
   display: flex;
   flex-direction: column;
   padding: 10px;
-  width: 200px;
-  height: 330px;
+  width: clamp(300px, 30%, 400px);
   margin: 10px;
 
   &:hover {

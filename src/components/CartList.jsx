@@ -11,7 +11,7 @@ const Article = styled.article`
 `
 
 const Img = styled.img`
-  width: 40%;
+  width: max(100px, 40%);
 `
 
 const Info = styled.div`
@@ -70,6 +70,7 @@ const Content = styled.div`
   float: right;
   transition: .3s;
   transform: ${props => (props.toggle ? "translateX(0)" : "translateX(100%)")};
+  overflow-y: scroll;
 `
 
 const Head = styled.div`
